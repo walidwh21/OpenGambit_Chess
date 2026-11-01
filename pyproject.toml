@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opengambit"
+version = "1.0.0"
+description = "A themeable chess game with a built-in computer opponent."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["pygame>=2.5"]
+
+[project.scripts]
+opengambit = "opengambit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["opengambit*"]
+
+[tool.setuptools.package-data]
+opengambit = ["data/*.json"]

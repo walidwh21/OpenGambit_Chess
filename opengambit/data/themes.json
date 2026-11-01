@@ -1,0 +1,87 @@
+{
+  "_comment": "Add your own theme by copying an entry. Colours are #RRGGBB or #RRGGBBAA. Brand-inspired entries are unofficial colour palettes only: no logos, no affiliation.",
+  "themes": [
+    {
+      "id": "classic", "name": "Classic", "kind": "neutral",
+      "tagline": "Play. Think. Checkmate.",
+      "colors": {
+        "bg": "#262522", "panel": "#34322f", "panel_alt": "#403d39",
+        "text": "#f1ede4", "muted": "#a9a398", "accent": "#7fa650", "accent_text": "#10140a",
+        "light_sq": "#e9dcc2", "dark_sq": "#a9825a",
+        "white_fill": "#fbf7ee", "white_line": "#3a2f25",
+        "black_fill": "#3b3632", "black_line": "#14110f",
+        "last_move": "#f2d65c88", "select": "#7fa65099",
+        "dot": "#1f2a1466", "capture": "#c9402f", "check": "#e03b3b"
+      }
+    },
+    {
+      "id": "midnight", "name": "Midnight", "kind": "neutral",
+      "tagline": "Quiet board. Loud ideas.",
+      "colors": {
+        "bg": "#0d1220", "panel": "#151c2e", "panel_alt": "#1e2740",
+        "text": "#e8eefc", "muted": "#8d9bbd", "accent": "#5cc4ff", "accent_text": "#04131d",
+        "light_sq": "#9fb1d1", "dark_sq": "#4d6590",
+        "white_fill": "#f6f8ff", "white_line": "#1a2238",
+        "black_fill": "#1a2238", "black_line": "#b9c6e6",
+        "last_move": "#5cc4ff77", "select": "#5cc4ff99",
+        "dot": "#0b102077", "capture": "#ff6b81", "check": "#ff4d6d"
+      }
+    },
+    {
+      "id": "volt", "name": "Volt", "kind": "brand-inspired",
+      "inspired_by": "Tesla",
+      "tagline": "Accelerate your endgame.",
+      "colors": {
+        "bg": "#0b0c0e", "panel": "#171a20", "panel_alt": "#222630",
+        "text": "#f4f4f4", "muted": "#8f939b", "accent": "#e31937", "accent_text": "#ffffff",
+        "light_sq": "#d7d9dd", "dark_sq": "#5b5f66",
+        "white_fill": "#ffffff", "white_line": "#171a20",
+        "black_fill": "#14161a", "black_line": "#c9ccd2",
+        "last_move": "#e3193788", "select": "#e3193799",
+        "dot": "#171a2066", "capture": "#e31937", "check": "#ff2d4a"
+      }
+    },
+    {
+      "id": "prism", "name": "Prism", "kind": "brand-inspired",
+      "inspired_by": "Google",
+      "tagline": "Search every line.",
+      "colors": {
+        "bg": "#f1f3f4", "panel": "#ffffff", "panel_alt": "#e8eaed",
+        "text": "#202124", "muted": "#5f6368", "accent": "#1a73e8", "accent_text": "#ffffff",
+        "light_sq": "#e8f0fe", "dark_sq": "#8ab4f8",
+        "white_fill": "#ffffff", "white_line": "#3c4043",
+        "black_fill": "#2b2d31", "black_line": "#111214",
+        "last_move": "#fbbc0488", "select": "#34a85399",
+        "dot": "#34a85377", "capture": "#ea4335", "check": "#ea4335"
+      }
+    },
+    {
+      "id": "reel", "name": "Reel", "kind": "brand-inspired",
+      "inspired_by": "Netflix",
+      "tagline": "Binge the best moves.",
+      "colors": {
+        "bg": "#0a0a0a", "panel": "#181414", "panel_alt": "#2a2222",
+        "text": "#f5f5f1", "muted": "#9a8f8f", "accent": "#e50914", "accent_text": "#ffffff",
+        "light_sq": "#d9cfcf", "dark_sq": "#7d1f26",
+        "white_fill": "#fffdf8", "white_line": "#2a1214",
+        "black_fill": "#1b1010", "black_line": "#e8c9c9",
+        "last_move": "#ffc10788", "select": "#ffffff66",
+        "dot": "#2a121266", "capture": "#e50914", "check": "#ff3b3b"
+      }
+    },
+    {
+      "id": "groove", "name": "Groove", "kind": "brand-inspired",
+      "inspired_by": "Spotify",
+      "tagline": "Every move on repeat.",
+      "colors": {
+        "bg": "#0e0e0e", "panel": "#181818", "panel_alt": "#282828",
+        "text": "#ffffff", "muted": "#a7a7a7", "accent": "#1ed760", "accent_text": "#04170a",
+        "light_sq": "#cfe9d8", "dark_sq": "#2f7d4f",
+        "white_fill": "#ffffff", "white_line": "#0e2a18",
+        "black_fill": "#101512", "black_line": "#b8e6c8",
+        "last_move": "#1ed76088", "select": "#ffffff66",
+        "dot": "#0e2a1866", "capture": "#ff5a5a", "check": "#ff4d4d"
+      }
+    }
+  ]
+}
